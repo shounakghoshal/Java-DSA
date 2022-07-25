@@ -27,15 +27,15 @@ public class BitAddition {
 
         while(i >= 0 || j >=0 || carry>0){
             int sum = 0;
-            System.out.println(A.chartAt(i));
-            System.out.println(B.chartAt(j));
+            System.out.println(A.charAt(i));
+            System.out.println(B.charAt(j));
 
             if (i >=0 ){
-                sum +=  Integer.parseInt(String.valueOf(A.chartAt(i))) ;
+                sum +=  Integer.parseInt(String.valueOf(A.charAt(i))) ;
                 i--;
             }
              if (j >=0 ){
-                sum +=  Integer.parseInt(String.valueOf(B.chartAt(j)));
+                sum +=  Integer.parseInt(String.valueOf(B.charAt(j)));
                 j--;
             }
             sum += carry;
