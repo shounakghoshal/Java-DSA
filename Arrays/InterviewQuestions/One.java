@@ -1,7 +1,7 @@
 package InterviewQuestions;
 
 //Q. Given a binary array, we can at-max [replace] a single 0 with 1. Find the max consecutive 1's we can get.
-//eg: 110101 ==> replace index 2 with last 1; we get : 1111 ==> ans : 4.
+//eg: 110101 ==> replace index 2 with last 1; we get : [1111]01 ==> ans : 4.
 
 public class One {
 
